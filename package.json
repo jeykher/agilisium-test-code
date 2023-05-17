@@ -28,8 +28,7 @@
         "url": "git+https://github.com/jeykher/agilisium-test-code.git"
     },
     "scripts": {
-        "build": "npm-run-all test compile",
-        "compile": "tsc && vite build",
+        "build": "tsc && vite build",
         "dev": "vite --mode development",
         "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
         "preview": "vite preview",

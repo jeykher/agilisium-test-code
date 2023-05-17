@@ -1,0 +1,51 @@
+{
+    // React TypeScript Code Snippets
+    "React TypeScript Basic Import Types": {
+      "prefix": "react-ts-basic-import-types",
+      "body": [
+        "import type { CSSProperties, FC as ReactFC } from 'react';"
+      ],
+      "description": "React TypeScript Basic Import Types"
+    },
+    "React TypeScript Basic Props Interface": {
+      "prefix": "react-ts-basic-props-interface",
+      "body": [
+        "interface Props {",
+        "    className?: string | undefined;",
+        "    style?: CSSProperties;",
+        "}"
+      ],
+      "description": "React TypeScript Basic Props Interface"
+    },
+    "React TypeScript Functional Arrow Component": {
+      "prefix": "react-ts-functional-arrow-component",
+      "body": [
+        "import type { CSSProperties, FC as ReactFC } from 'react';",
+        "",
+        "interface Props {",
+        "    className?: string | undefined;",
+        "    style?: CSSProperties;",
+        "}",
+        "",
+        "export const Component: ReactFC<Props> = ({",
+        "    className,",
+        "    style,",
+        "    ...rest",
+        "}) => (",
+        "    <div",
+        "        className={",
+        "            className ? `${className}` : ``",
+        "        }",
+        "        style={{",
+        "            ...style",
+        "        }}",
+        "        {...rest}",
+        "    >",
+        "        Component",
+        "    </div>",
+        ");",
+        ""
+      ],
+      "description": "React TypeScript Functional Arrow Component"
+    }
+}

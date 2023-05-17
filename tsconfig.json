@@ -16,13 +16,14 @@
             "@Artist/*": ["./Artist/*"],
             "@Core/*": ["./Core/*"],
             "@Packages/*": ["./Packages/*"],
-            "@Test/*": ["./Test/*"],
-            "@Song/*": ["./Song/*"]
+            "@Song/*": ["./Song/*"],
+            "@Test/*": ["./Test/*"]
         },
         "resolveJsonModule": true,
         "skipLibCheck": true,
         "strict": true,
-        "target": "ESNext"
+        "target": "ESNext",
+        "types": ["react/experimental"]
     },
     "include": ["src"],
     "references": [{ "path": "./tsconfig.node.json" }]

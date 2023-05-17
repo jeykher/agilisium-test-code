@@ -24,11 +24,11 @@ export default defineConfig({
             },
             {
                 find: '@Song',
-                replacement: path.resolve(__dirname, 'src/Test')
+                replacement: path.resolve(__dirname, 'src/Song')
             },
             {
                 find: '@Test',
-                replacement: path.resolve(__dirname, 'src/Song')
+                replacement: path.resolve(__dirname, 'src/Test')
             }
         ]
     },

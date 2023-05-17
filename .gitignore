@@ -1,24 +1,123 @@
-# Logs
-logs
-*.log
+# Gitignore File Configuration
+
+# Cache
+.cache
+.mf
+.rollup.cache
+.sass-cache/
+/.angular/cache
+tsconfig.tsbuildinfo
+
+# Debugger
+.pnpm-debug.log*
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Environment files
+#.env
+.env.development.local
+.env.local
+.env.production.local
+.env.test.local
 *.local
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
+# Files
+uploads
+
+# IDEs and editors
+.c9/
+.classpath
+.idea/
+.project
+.settings/
+*.launch
 *.njsproj
+*.ntvs*
 *.sln
+*.sublime-workspace
+*.suo
 *.sw?
+/.idea
+
+# Logs
+*.log
+lerna-debug.log*
+logs
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# NodeJS
+.pnp
+.pnp.js
+*.local
+node_modules
+
+# NextJS
+.next/
+/.next/
+/dist
+/lib
+/lib-types
+/server
+build
+
+# next-env.d.ts
+/out/
+out/
+
+# OS
+.DS_Store
+
+# Others
+*.pem
+desktop.ini
+
+# Production
+/bazel-out
+/build
+/dist
+/out-tsc
+dist-ssr
+storybook-static
+
+# Temporals
+/tmp
+
+# Testing
+coverage
+/coverage
+/.nyc_output
+
+# TurboRepo
+.turbo
+
+# TypeScript
+*.tsbuildinfo
+
+# miscellanous
+.DS_Store
+*.pem
+/connect.lock
+/coverage
+/libpeerconnection.log
+/typings
+testem.log
+
+# Vercel
+.vercel
+
+# Vscode
+!.vscode/extensions.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+.history/*
+#!.vscode/settings.json
+#.vscode/*
+
+# Yarn
+.yarn/*
+!.yarn/releases

@@ -1,6 +1,6 @@
 import type { PayloadAction } from '@reduxjs/toolkit';
-import type { Song } from '../../entities';
-import type { SongState } from '../../interfaces';
+import type { Song } from '@Song/domain/entities';
+import type { SongState } from '@Song/domain/interfaces';
 
 import { createSlice } from '@reduxjs/toolkit';
 
